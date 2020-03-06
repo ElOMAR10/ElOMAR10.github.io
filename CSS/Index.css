@@ -1,0 +1,55 @@
+#entete{
+    height: 50px;
+    width: 100%;
+    opacity: .8;
+       }
+
+#contenu{
+    height: 400px;
+    width: 60%;
+    text-align: center;
+        }
+
+body{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    }
+
+#entete ul {
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+    background-color: white;
+           }
+
+#entete ul li:hover{
+    background-color: lightseagreen;
+                   }
+
+#entete li{
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+    border-style: hidden;
+    display: inline-block;
+          }
+
+.menu, li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    font-family: cursive;
+    color: black;
+          }
+
+#body{
+    background-size: cover;
+    background-image: url(../Image/ne.jpg);
+     }
+
+h1{
+    color:black;
+  }
